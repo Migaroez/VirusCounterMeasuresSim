@@ -2,7 +2,7 @@
 using Core.Ioc;
 using UnityEngine;
 
-namespace Scripts.Ioc
+namespace Assets.Scripts.Global.Ioc
 {
     public class Global : MonoBehaviour
     {
@@ -15,6 +15,7 @@ namespace Scripts.Ioc
             DiContainer.Current.Register(new Assets.Code.Services.LocationService() as ILocationService);
             DiContainer.Current.Register(new HumanService() as IHumanService);
             DiContainer.Current.Register(new SimulationService() as ISimulationService);
+            DiContainer.Current.Register(new LocationHelper());
 
             // set max framerate
             QualitySettings.vSyncCount = 0;  // VSync must be disabled
