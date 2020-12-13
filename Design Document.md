@@ -8,10 +8,10 @@
 All the different ways the virus behaves, transmission likelyhoods, halftime, resistances, incubation time,...
 ### Transmission
 - Physical interaction
-- Close contact range aerosol (<= 0.5m)
+- Close contact range aerosol (touch)
 - Short range aerosol (<= 1.5m)
-- Medium range aersol (<= 5m)
-- Large range aerosol (> 5m)
+- Medium range aersol (<= 6m)
+- Large range aerosol (> 6m)
 - Contact surfaces
 - Water
 - Food
