@@ -3,14 +3,13 @@
 public class Path
 {
     public readonly Vector2Int[] waypoints;
-    public readonly int endIndex;
-    public readonly int approachIndex;
-
-    private float _distanceFromEndPoint;
+    public readonly Vector2Int startPos;
+    public readonly Vector2Int endPos;
 
     public Path(Vector2Int[] waypoints, Vector2Int startPos, Vector2Int endPos)
     {
         this.waypoints = waypoints;
-        Vector2Int previousPos = startPos;
+        this.startPos = startPos;
+        this.endPos = endPos;
     }
 }
